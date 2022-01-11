@@ -103,18 +103,21 @@
   "terminal.integrated.defaultProfile.windows": "WSL",
   "terminal.integrated.profiles.windows": {
     "WSL": {
-      "path" : "C:\\WINDOWS\\System32\\bash.exe",
+      "path": "C:\\WINDOWS\\System32\\bash.exe",
     },
     "Git Bash": {
       "path": "C:\\Program Files\\Git\\bin\\bash.exe",
-      "args": ["-l"]
+      "args": [
+        "--login",
+        "-i"
+      ]
     },
     "PowerShell": {
       "source": "PowerShell"
     }
   },
   // どのターミナルを Windows で実行するかをカスタマイズします。
-  "terminal.external.windowsExec": "C:\\Program Files\\Terminus\\Terminus.exe",
+  "terminal.external.windowsExec": "C:\\Tabby\\Tabby.exe",
   // "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
   "typescript.check.npmIsInstalled": false,
   "extensions.ignoreRecommendations": false,
