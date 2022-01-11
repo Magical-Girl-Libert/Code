@@ -1,5 +1,30 @@
-/User/workspaceStorage
-/User/globalStorage
 /Backups
 /blob_storage
 /Cache
+/CachedConfigurations
+/CachedData
+/CachedExtensions
+/CachedExtensionVSIXs
+/clp
+/Code Cache
+/code.lock
+/Cookies
+/Cookies-journal
+/Crashpad
+/databases
+/Dictionaries
+/GPUCache
+/languagepacks.json
+/Local Storage
+/logs
+/machineid
+/Network Persistent State
+/QuotaManager
+/QuotaManager-journal
+/rapid_render.json
+/Service Worker
+/Session Storage
+/storage.json
+/TransportSecurity
+/User/globalStorage
+/User/workspaceStorage

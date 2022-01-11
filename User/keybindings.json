@@ -1,0 +1,161 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    // sortlineの無効化したキーバインド
+    {
+        "key": "f9",
+        "command": "-sortLines.sortLines",
+        "when": "editorTextFocus"
+    },
+    // 端末をクリアを無効化
+    {
+        "key": "ctrl+k",
+        "command": "-workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    // 端末をクリア
+    {
+        "key": "alt+oem_102",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    // コンソールのクリア
+    {
+        "key": "alt+oem_102",
+        "command": "workbench.debug.panel.action.clearReplAction",
+        "when": "inDebugRepl"
+    },
+    // パネルにフォーカスする
+    {
+        "key": "alt+p",
+        "command": "workbench.action.focusPanel",
+    },
+    // デバッグ コンソールにフォーカスを移動
+    {
+        "key": "alt+oem_comma",
+        "command": "workbench.debug.action.focusRepl",
+        "when": "!terminalFocus"
+    },
+    // 次の端末にフォーカス
+    {
+        "key": "alt+oem_period",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    // 前の端末にフォーカス
+    {
+        "key": "alt+oem_comma",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    // アクティブなエディタグループにフォーカス
+    {
+        "key": "alt+e",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorTextFocus"
+    },
+    {
+        "key": "alt+oem_plus",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorTextFocus"
+    },
+    // パンくずリストを表示、フォーカス
+    {
+        "key": "alt+insert",
+        "command": "workbench.action.terminal.new",
+    },
+    // アクティブなターミナルのインスタンスを強制終了
+    {
+        "key": "alt+delete",
+        "command": "workbench.action.terminal.kill"
+    },
+    // アクティブなターミナルの切り替え
+    {
+        "key": "alt+t",
+        "command": "workbench.action.quickOpenTerm"
+    },
+    // 端末にフォーカス
+    {
+        "key": "alt+oem_period",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    // デバッグ:評価
+    {
+        "key": "alt+oem_2",
+        "command": "editor.debug.action.selectionToRepl",
+        "when": "inDebugMode"
+    },
+    // デバッグ:条件付きブレークポイントの追加
+    {
+        "key": "alt+oem_5",
+        "command": "editor.debug.action.conditionalBreakpoint"
+    },
+    // デバッグ:ウォッチに追加
+    {
+        "key": "alt+oem_minus",
+        "command": "editor.debug.action.selectionToWatch"
+    },
+    // デバッグ:ウォッチにフォーカス
+    {
+        "key": "alt+w",
+        "command": "workbench.debug.action.focusWatchView",
+        "when": "inDebugMode"
+    },
+    // 変数にフォーカス
+    {
+        "key": "alt+v",
+        "command": "workbench.debug.action.focusVariablesView",
+        "when": "inDebugMode"
+    },
+    // 大文字に変換
+    {
+        "key": "shift+alt+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    // 小文字に変換
+    {
+        "key": "shift+alt+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    // 最大化されるパネルの切り替え
+    {
+        "key": "alt+oem_7",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    /*
+     *  sqltools config
+     */
+    {
+        "key": "alt+s",
+        "command": "SQLTools.tableExplorer.focus"
+    },
+    {
+        "key": "alt+q alt+n",
+        "command": "SQLTools.newSqlFile"
+    },
+    {
+        "key": "alt+q alt+r",
+        "command": "SQLTools.executeQueryFromFile",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'sql'"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "SQLTools.formatSql",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'sql'"
+    },
+    {
+        "key": "ctrl+e ctrl+b",
+        "command": "-SQLTools.formatSql",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'sql'"
+    },
+    {
+        "key": "alt+q alt+s",
+        "command": "SQLTools.executeQuery",
+        "when": "editorTextFocus && editorLangId == 'sql'"
+    },
+    {
+        "key": "ctrl+e ctrl+e",
+        "command": "-SQLTools.executeQuery",
+        "when": "editorTextFocus && editorLangId == 'sql'"
+    }
+]
