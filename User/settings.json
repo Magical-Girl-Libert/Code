@@ -168,7 +168,6 @@
   // "editor.fontSize": 13,
   // "twitter.nomedia": true,
   "search.searchOnType": false,
-  "vsnotes.defaultNotePath": "c:\\vsnotes",
   "editor.insertSpaces": false,
   "editor.copyWithSyntaxHighlighting": false,
   "git.confirmSync": false,
@@ -187,5 +186,33 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // vsnotes  
+  "vsnotes.defaultNotePath": "c:\\vsnotes",
+  "vsnotes.defaultNoteTitle": "{dt}_{title}.{ext}",
+  "vsnotes.tokens": 
+  [
+    {
+      "type": "datetime",
+      "token": "{dt}",
+      "format": "YYYY-MM-DD_HHmm",
+      "description": "Insert formatted datetime."
+    },
+    {
+      "type": "title",
+      "token": "{title}",
+      "description": "Insert note title from input box.",
+      "format": "Untitled"
+    },
+    {
+      "type": "extension",
+      "token": "{ext}",
+      "description": "Insert file extension.",
+      "format": "md"
+    },
+  ],
+  "vsnotes.defaultSnippet": {
+    "langId": "markdown",
+    "name": "vsnote_template_default"
   },
 }
