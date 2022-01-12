@@ -22,5 +22,17 @@
 			"${CLIPBOARD/(^[a-z)])|_([a-z])/${1:/upcase}${2:/upcase}}",
 		],
 		"description": "Log output to console"
-	}
+	},
+
+	"vsnote_template_default": {
+		"prefix": "vsnote_template_default",
+		"body": [
+		  "---",
+		  "tags:",
+		  "\t- $1",
+		  "---",
+		  "$2",
+		],
+		"description": "Generic Default Template",
+	  },
 }
