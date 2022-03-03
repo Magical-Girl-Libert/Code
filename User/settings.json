@@ -165,8 +165,6 @@
   // "editor.fontFamily": "Noto Sans Mono CJK JP Regular",
   // "editor.fontWeight": "400",
   "editor.fontFamily": "source han code jp",
-  // "editor.fontSize": 13,
-  // "twitter.nomedia": true,
   "search.searchOnType": false,
   "editor.insertSpaces": false,
   "editor.copyWithSyntaxHighlighting": false,
@@ -188,10 +186,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // vsnotes  
-  "vsnotes.defaultNotePath": "c:\\vsnotes",
-  "vsnotes.defaultNoteTitle": "{dt}_{title}.{ext}",
-  "vsnotes.tokens": 
-  [
+  "vsnotes.defaultNotePath": "c:\\VSNotes",
+  "vsnotes.defaultNoteTitle": "{title}_{dt}.{ext}",
+  "vsnotes.tokens": [
     {
       "type": "datetime",
       "token": "{dt}",

@@ -23,16 +23,15 @@
 		],
 		"description": "Log output to console"
 	},
-
 	"vsnote_template_default": {
 		"prefix": "vsnote_template_default",
 		"body": [
-		  "---",
-		  "tags:",
-		  "\t- $1",
-		  "---",
-		  "$2",
+			"---",
+			"tags:",
+			"  - $1",
+			"---",
+			"#$2",
 		],
 		"description": "Generic Default Template",
-	  },
+	},
 }
