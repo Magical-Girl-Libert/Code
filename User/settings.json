@@ -137,7 +137,6 @@
   "workbench.activityBar.visible": true,
   // 末尾に改行を入れます。
   "html.format.endWithNewline": true,
-  "window.zoomLevel": 0,
   "files.eol": "\n",
   "files.associations": {
     "*.cron": "shellscript"
@@ -186,7 +185,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // vsnotes  
-  "vsnotes.defaultNotePath": "c:\\VSNotes",
+  "vsnotes.defaultNotePath": "~/vsnotes",
   "vsnotes.defaultNoteTitle": "{title}_{dt}.{ext}",
   "vsnotes.tokens": [
     {
@@ -211,5 +210,14 @@
   "vsnotes.defaultSnippet": {
     "langId": "markdown",
     "name": "vsnote_template_default"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  // コメント内の文字を Unicode 強調表示の対象にするかどうかを制御します。
+  "editor.unicodeHighlight.includeComments": true,
+  // 基本以外のすべての ASCII 文字を強調表示するかどうかを制御します。U+0020 から U+007Eの間の文字、Tab、改行コード、行頭復帰のみが基本 ASCII と見なされます。
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
 }

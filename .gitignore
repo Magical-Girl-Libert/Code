@@ -18,6 +18,7 @@
 /Local Storage
 /logs
 /machineid
+/Network
 /Network Persistent State
 /QuotaManager
 /QuotaManager-journal
@@ -27,4 +28,9 @@
 /storage.json
 /TransportSecurity
 /User/globalStorage
+/User/History
+/User/sync
 /User/workspaceStorage
+Local State
+Preferences
+User/tasks.json
