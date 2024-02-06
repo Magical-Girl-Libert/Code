@@ -31,6 +31,10 @@
 /User/History
 /User/sync
 /User/workspaceStorage
+/WebStorage/
 Local State
 Preferences
 User/tasks.json
+/IndexedDB
+/DawnCache
+/CachedProfilesData

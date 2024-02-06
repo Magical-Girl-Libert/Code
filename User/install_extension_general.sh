@@ -3,7 +3,6 @@ code --install-extension cefour.pretty-edit
 code --install-extension donjayamanne.githistory
 code --install-extension emilast.LogFileHighlighter
 code --install-extension IBM.output-colorizer
-code --install-extension jebbs.plantuml
 code --install-extension Kelvin.vscode-sshfs
 code --install-extension mikeburgh.xml-format
 code --install-extension mosapride.zenkaku
