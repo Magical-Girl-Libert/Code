@@ -38,3 +38,8 @@ User/tasks.json
 /IndexedDB
 /DawnCache
 /CachedProfilesData
+SharedStorage
+Shared Dictionary/db
+Shared Dictionary/db-journal
+Shared Dictionary/cache/index
+Shared Dictionary/cache/index-dir/the-real-index

@@ -102,18 +102,35 @@
   // Windows でターミナルが使用するシェルのパス。
   "terminal.integrated.defaultProfile.windows": "WSL",
   "terminal.integrated.profiles.windows": {
-    "WSL": {
-      "path": "C:\\WINDOWS\\System32\\bash.exe",
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
     },
     "Git Bash": {
+      "source": "Git Bash",
       "path": "C:\\Program Files\\Git\\bin\\bash.exe",
       "args": [
         "--login",
         "-i"
       ]
     },
-    "PowerShell": {
-      "source": "PowerShell"
+    "WSL": {
+      "path": "C:\\WINDOWS\\System32\\bash.exe"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu"
+      ]
     }
   },
   // どのターミナルを Windows で実行するかをカスタマイズします。
@@ -224,4 +241,8 @@
     "DC53427HYE": "linux",
     "deskmini-x300": "linux"
   },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  // 統合ターミナルがプロファイルを読まないときはこれを試す
+  // https://stackoverflow.com/questions/73315094/wsl-bash-in-visual-studio-code-running-bashrc-but-not-bash-profile
+  "terminal.integrated.shellIntegration.enabled": false,
 }
