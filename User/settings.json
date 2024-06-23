@@ -134,9 +134,12 @@
     }
   },
   // どのターミナルを Windows で実行するかをカスタマイズします。
-  // tabby download https://github.com/Eugeny/tabby
-  "terminal.external.windowsExec": "C:\\Tabby\\Tabby.exe",
+  // https://github.com/alacritty/alacritty
+  "terminal.external.windowsExec": "C:\\Program Files\\Alacritty\\alacritty.exe",
+  // Git Bash
   // "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
+  // tabby download https://github.com/Eugeny/tabby
+  // "terminal.external.windowsExec": "C:\\Tabby\\Tabby.exe",
   "typescript.check.npmIsInstalled": false,
   "extensions.ignoreRecommendations": false,
   "git.autofetch": true,
@@ -166,7 +169,7 @@
   "extensions.autoUpdate": false,
   // 有効にした場合、拡張機能の更新を自動的に確認します。拡張機能に更新がある場合は、拡張機能ビューで古くなった拡張機能として表示されます。更新は Microsoft オンライン サービスから取得されます。
   "extensions.autoCheckUpdates": false,
-  /* 
+  /*
    * intelephense config
    */
   "intelephense.file.maxSize": 10000000,
@@ -200,7 +203,7 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  // vsnotes  
+  // vsnotes
   "vsnotes.defaultNotePath": "~/vsnotes",
   "vsnotes.defaultNoteTitle": "{title}_{dt}.{ext}",
   "vsnotes.tokens": [
@@ -245,4 +248,5 @@
   // 統合ターミナルがプロファイルを読まないときはこれを試す
   // https://stackoverflow.com/questions/73315094/wsl-bash-in-visual-studio-code-running-bashrc-but-not-bash-profile
   "terminal.integrated.shellIntegration.enabled": false,
+  "files.trimTrailingWhitespace": true,
 }

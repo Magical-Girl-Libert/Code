@@ -25,6 +25,7 @@
 	},
 	"vsnote_template_default": {
 		"prefix": "vsnote_template_default",
+		"scope": "md",
 		"body": [
 			"---",
 			"tags:",
